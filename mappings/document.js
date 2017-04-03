@@ -29,11 +29,11 @@ var schema = {
         },
         number: {
           type: 'string',
-          analyzer: 'peliasHousenumber',
+          analyzer: 'peliasIndexOneEdgeGram',
         },
         street: {
           type: 'string',
-          analyzer: 'peliasStreet',
+          analyzer: 'peliasIndexTwoEdgeGram',
         },
         zip: {
           type: 'string',
